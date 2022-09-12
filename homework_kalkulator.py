@@ -26,22 +26,18 @@ while True:
 
         if choice == 1:
             print('Suma równa się ', add(num1, num2))
-            break
 
         elif choice == 2:
             print('Różnica równa się ', subtract(num1, num2))
-            break
 
         elif choice == 3:
             print('Iloczyn równa się ', multiply(num1, num2))
-            break
 
         elif choice == 4:
             if num2 == 0:
                 print('Nie dziel przez 0')
             else:
                 print('Iloraz równa się ', divide(num1, num2))
-            break
 
     else:
         print("Błędna wartość, podaj poprawną")
